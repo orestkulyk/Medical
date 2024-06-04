@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="/Footer/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Footer/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="/Footer/css/Article-List.css">
+    <link rel="stylesheet" href="/Footer/css/Footer-Dark.css">
+    <link rel="stylesheet" href="/Footer/css/styles.css">
+    <link rel="stylesheet" href="/nav-bar/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/nav-bar/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="/nav-bar/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="/nav-bar/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="/nav-bar/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="/nav-bar/css/styles.css">
+    <link rel="stylesheet" href="/nav-bar/css/Team-Boxed.css">
+    <link rel="stylesheet" href="/Home/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Home/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="/Home/css/Article-List.css">
+    <link rel="stylesheet" href="/Home/css/styles.css">
+</head>
+
+<body>
+<div th:replace="fragments/nav-bar/nav-bar :: nav"></div>
+<div class="article-list">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">Медична клініка Ореста Кулика</h2>
+            <p class="text-center">Сучасний медичний заклад, що пропонує високоякісні медичні послуги
+                з акцентом на індивідуальний підхід до кожного пацієнта. Завдяки професійному персоналу
+                та передовому обладнанню, клініка забезпечує ефективне діагностування та лікування різноманітних захворювань.</p>
+        </div>
+        <div class="row articles">
+            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/Home/img/1.jpg"></a>
+                <h3 class="name">Лікарі</h3>
+                <p class="description">Лікарі роблять людей здоровішими, діагностуючи захворювання та призначаючи ефективне лікування.
+                    Вони надають медикаментозну терапію та інші види лікування, а також дають рекомендації щодо дієти, фізичних вправ та сну.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+            <div
+                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/Home/img/2.jpg"></a>
+                <h3 class="name">Клініка</h3>
+                <p class="description">Клініка - це медичний заклад, який надає лікування пацієнтам за допомогою
+                    кваліфікованого медичного та сестринського персоналу,
+                    а також сучасного медичного обладнання..</p><a class="action" href="#"><i
+                        class="fa fa-arrow-circle-right"></i></a></div>
+            <div
+                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/Home/img/3.jpg"></a>
+                <h3 class="name">Фармація</h3>
+                <p class="description">Наука і техніка з підготовки, відпуску та контролю ліків,
+                    а також надання додаткових клінічних послуг. Це медична професія, яка поєднує медичні науки
+                    з фармацевтичними і спрямована на забезпечення безпечного, ефективного та
+                    доступного використання лікарських засобів..</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+        </div>
+    </div>
+</div>
+<script src="/Home/js/jquery.min.js"></script>
+<script src="/Home/bootstrap/js/bootstrap.min.js"></script>
+<div th:replace="fragments/Footer/Footer :: footer"></div>
+</body>
+
+</html>
